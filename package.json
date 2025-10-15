@@ -1,0 +1,22 @@
+{
+  "name": "my-legal-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd my-legal-site && npm run dev",
+    "build": "cd my-legal-site && npm run build",
+    "start": "cd my-legal-site && npm run start",
+    "lint": "cd my-legal-site && npm run lint"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "framer-motion": "^10.12.16",
+    "next": "15.5.4",
+    "nodemailer": "^7.0.9",
+    "postcss": "^8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-lottie-player": "^2.1.0",
+    "tailwindcss": "^3.4.8"
+  }
+}

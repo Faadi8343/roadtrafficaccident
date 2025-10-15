@@ -1,0 +1,19 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --glass: rgba(255,255,255,0.6);
+  --glass-2: rgba(255,255,255,0.04);
+}
+
+html,body,#__next{height:100%}
+body{background: linear-gradient(180deg,#f7fafc,#f1f5f9);}
+
+.section-glass{
+  backdrop-filter: blur(8px);
+  background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.4));
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.6);
+}
